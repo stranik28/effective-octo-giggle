@@ -1,0 +1,18 @@
+/*---------------HEADER-------------------*/
+
+header {
+	
+}
+
+.wrapper {
+	max-width:  1200px;
+}
+
+.header_menu_conainer {
+	display: flex;
+	justify-content:  space-between;
+}
+
+.header_menu {
+	display: flex;
+}
