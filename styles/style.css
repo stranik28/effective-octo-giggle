@@ -1,18 +1,143 @@
 /*---------------HEADER-------------------*/
 
 header {
-	
+	background-color: grey;
 }
 
 .wrapper {
 	max-width:  1200px;
+	margin: 0 auto;
 }
 
-.header_menu_conainer {
+.header_container {
 	display: flex;
 	justify-content:  space-between;
 }
 
+.header_menu_container {
+	display: flex;
+}
+
 .header_menu {
 	display: flex;
+	list-style-type: none;
+	align-items: center;
+
+	font-family: Ubuntu, sans-serif;
+	font-size: 16px;
+}
+
+.header_menu a {
+	display: block;
+	padding: 10px 15px;
+}
+
+.tel {
+	display: flex;
+	align-items: center;
+}
+
+.tel a {
+	display: block;
+	padding: 10px 15px;
+}
+
+.logo {
+	height: 20px;
+	width:  auto;
+
+	align-self: center;
+}
+
+.header_menu li {
+
+}
+
+.header_main {
+	display: flex;
+	justify-content:  space-between;
+	align-items: flex-end;
+
+	padding: 15% 0 15% 0;
+}
+
+.benefits_list {
+	display: flex;
+	flex-wrap: wrap;
+	list-style-type: none;
+	gap: 90px 0;
+
+	max-width: 45%;
+}
+
+.benefits_list li {
+	width: 33.33%;
+	flex-shrink: 1;
+	font-size: 24px;
+
+	padding: 7px;
+
+	border-left: 3px solid #F14D34;
+}
+
+.benefits_list li p:last-child {
+	font-size: 12px;
+}
+
+.benefits_list li:first-child p:first-child {
+	font-size: 48px;
+	margin-top: -29px;
+}
+
+.heading {
+	max-width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+
+.heading h1 {
+	font-size: 52px;
+	line-height: 60px;
+	font-weight: 700;
+}
+
+.heading p {
+	font-size: 18px;
+	line-height: 28px;
+}
+
+button.tariffs {
+	border: 2px solid #F14D34;
+	border-radius: 5px;
+	background: transparent;
+
+	width: 50%;
+	margin-top: 10%;
+	text-transform: uppercase;
+	color: #FFF;
+	font-size: 12px;
+	line-height: 60px;
+}
+
+.tel {
+	font-size: 18px;
+}
+
+
+
+
+
+html {
+	color:  #FFF;
+	font-family: Montserrat, sans-serif;
+}
+a {
+	color:  #FFF;
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
