@@ -145,7 +145,7 @@ ul.lang_list {
 }
 
 .benefits_list li:first-child p:first-child::after {
-	content: url("https://github.com/stranik28/effective-octo-giggle/blob/main/img/cup.png");
+	content: url("../img/cup.png");
 	position: absolute;
 	z-index: 2;
 }
@@ -230,7 +230,7 @@ a {
 	text-decoration: none;
 }
 
-* {
+header * {
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
@@ -239,9 +239,10 @@ a {
 .down .footer{
     display: inline-flex;
     padding: 25px 5% 71px;
+    width: 100%;
 }
 .down{
-    background: linear-gradient(254.72deg,rgba(255,255,255,.276) -114.85%,rgba(255,255,255,0) 69.04%),url('/img/D-flying.svg') no-repeat top center,url('/img/D-footer.svg') no-repeat bottom right,#040613;
+    background: linear-gradient(254.72deg,rgba(255,255,255,.276) -114.85%,rgba(255,255,255,0) 69.04%),url('../img/D-flying.svg') no-repeat top center,url('../img/D-footer.svg') no-repeat bottom right,#040613;
     color: white;
     width: 100%;
 }
@@ -274,7 +275,7 @@ body{
     list-style: none;
 }
 .down .phone::before{
-    content: url("/img/phone.svg");
+    content: url("../img/phone.svg");
     display: inline-block;
     height: 16px;
     width: 16px;
@@ -292,7 +293,7 @@ body{
     display: inline-block;
     width: 24px;
     height: 18px;
-    content: url(/img/mail.svg);
+    content: url(../img/mail.svg);
     opacity: .8;
     padding-top: 2px;
     background-size: contain;
@@ -387,7 +388,7 @@ body{
     background-size: 50% 50%;
 }
 .down .custom_check:checked+label::before{
-    background-image: url("/img/checked-icon.svg");
+    background-image: url("../img/checked-icon.svg");
     background-size: 15px 15px;
     border: 2px solid #f14d34;
     box-shadow: 0 0 10px #f14d34;
