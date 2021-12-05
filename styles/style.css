@@ -1,7 +1,9 @@
 /*---------------HEADER-------------------*/
 
 header {
-	background-color: grey;
+	position: relative;
+	background: rgba(0, 0, 0, 0.7);
+	overflow: hidden;
 }
 
 .wrapper {
@@ -12,6 +14,8 @@ header {
 .header_container {
 	display: flex;
 	justify-content:  space-between;
+
+	padding-top: 20px;
 }
 
 .header_menu_container {
@@ -45,6 +49,8 @@ header {
 .logo {
 	height: 20px;
 	width:  auto;
+	padding-top: 2px;
+	margin-right: 50px;
 
 	align-self: center;
 }
@@ -58,7 +64,7 @@ header {
 	justify-content:  space-between;
 	align-items: flex-end;
 
-	padding: 15% 0 15% 0;
+	padding: 15% 0 20% 0;
 }
 
 .benefits_list {
@@ -121,6 +127,15 @@ button.tariffs {
 
 .tel {
 	font-size: 18px;
+}
+
+#header_bg_video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
 }
 
 
