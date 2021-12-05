@@ -230,7 +230,7 @@ a {
 	text-decoration: none;
 }
 
-header * {
+* {
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
@@ -243,7 +243,6 @@ header * {
 }
 .down{
     background: linear-gradient(254.72deg,rgba(255,255,255,.276) -114.85%,rgba(255,255,255,0) 69.04%),url('../img/D-flying.svg') no-repeat top center,url('../img/D-footer.svg') no-repeat bottom right,#040613;
-    color: white;
     width: 100%;
 }
 .down #line_footer{
@@ -320,7 +319,7 @@ body{
 .down input:not(input[type="checkbox"]){
     color: white;
     font-size: 18px;
-    width: 480px;
+    width: 504px;
     height: 54px;
     outline: none;
     padding-left: 20px;
@@ -342,7 +341,7 @@ body{
     color: white;
     font-size: 18px;
     padding-top: 10px;
-    width: 480px;
+    width: 504px;
     height: 108px;
     outline: none;
     padding-left: 20px;
@@ -355,6 +354,10 @@ body{
 .down #right-footer{
     padding-left: 25px;
     width: 50%;
+}
+.down form{
+    width: 504px;
+    margin: auto;
 }
 .down #right-help{
     margin-left: auto;
