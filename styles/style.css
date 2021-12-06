@@ -218,6 +218,28 @@ button.tariffs:hover {
 }
 
 
+
+
+/*---------------FIRST-SECTION------------*/
+
+section.skills {
+    color: #000;
+}
+
+h2.skills_heading {
+    font-size: 42px;
+}
+
+ul.skills_list {
+    display:  flex;
+    list-style-type: none;
+}
+
+
+
+
+
+
 /*---------------Footer-------------------*/
 
 
