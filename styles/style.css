@@ -220,7 +220,7 @@ button.tariffs:hover {
 
 
 
-/*---------------FIRST-SECTION------------*/
+/*--------------------FIRST-SECTION-----------------*/
 
 section.skills {
     color: #000;
@@ -253,33 +253,72 @@ ul.skills_list li {
 
 
 
-/*-------------SECOND-SECTION-------------*/
+/*-------------------SECOND-SECTION-------------------*/
 
 section.support {
     color: #000;
     padding: 80px 0;
+
+   background: linear-gradient(white 65%, 65%, black);
 }
 
 h2.support_heading {
     font-size: 42px;
-    margin-bottom: 18px;
+    margin-bottom: 25px;
 
     text-align: center;
 }
 
 ul.supports_list {
-    grid-column-gap: 5em;
-    grid-row-gap: 5em;
+    grid-column-gap: 0.5em;
+    grid-row-gap: 0.5em;
 }
 
 ul.supports_list li {
-    position: relative;
+    padding: 20px;
+    border-radius: 5px;
+
+    height: 292px;
 }
 
-ul.supports_list li span.icon {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+ul.supports_list li p {
+    font-size:  16px;
+    line-height: 1.3em;
+}
+
+ul.supports_list li h3 {
+    line-height: 1.5em;
+    margin: 20px 0;
+}
+
+ul.supports_list li span.num {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+ul.supports_list li.item1 {
+    background: #FFF url("../img/support1.svg") no-repeat 100% 100%;
+}
+ul.supports_list li.item2 {
+    background: #FFF url("../img/support2.svg") no-repeat 100% 100%;
+}
+ul.supports_list li.item3 {
+    background: #FFF url("../img/support3.svg") no-repeat 100% 100%;
+}
+ul.supports_list li.item4 {
+    background: #FFF url("../img/support4.svg") no-repeat 100% 100%;
+}
+ul.supports_list li.item5 {
+    background: #FFF url("../img/support5.svg") no-repeat 100% 100%;
+}
+ul.supports_list li.item6 {
+    background: #FFF url("../img/support6.svg") no-repeat 100% 100%;
+}
+ul.supports_list li.item7 {
+    background: #FFF url("../img/support7.svg") no-repeat 100% 100%;
+}
+ul.supports_list li.item8 {
+    background: #FFF url("../img/support8.svg") no-repeat 100% 100%;
 }
 
 
