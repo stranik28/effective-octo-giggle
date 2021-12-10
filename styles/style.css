@@ -1,4 +1,9 @@
 
+h2 {
+    line-height: 51px;
+    font-size: 42px;
+}
+
 /*---------------HEADER-------------------*/
 
 header {
@@ -278,6 +283,8 @@ ul.supports_list li {
     padding: 20px;
     border-radius: 5px;
 
+    box-shadow: 1px 1px 5px gray;
+
     height: 292px;
 }
 
@@ -321,6 +328,60 @@ ul.supports_list li.item8 {
     background: #FFF url("../img/support8.svg") no-repeat 100% 100%;
 }
 
+
+
+
+
+/*-----------------------SECTION 3---------------------*/
+
+section.drupal_expertise {
+    background: linear-gradient(black 85%, 85%, white);
+    height: 38vw;
+    position: relative;
+}
+
+section.drupal_expertise div.bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 50%;
+    background: url(../img/laptop.png) no-repeat 0 0;
+    background-size: auto 100%;
+    height: 100%;
+}
+
+section.drupal_expertise h2 {
+    margin-bottom: 70px;
+}
+
+section.drupal_expertise ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+section.drupal_expertise ul li {
+    max-width: 35%;
+    padding: 20px 30px;
+    border-left: 3px solid #F14D34;
+}
+
+section.drupal_expertise ul li p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+section.drupal_expertise div.right_container {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+
+    padding-left: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 
 
 
