@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import "./form.css"
 import "./Modal.css"
 import $ from 'jquery'
@@ -53,13 +53,21 @@ function close(){
     let op = 1;
     requestAnimationFrame(function anim (){
         el.style.opacity = op;
-        op-=0.08;
-        if(op > -0.08) {
+        op-=0.1;
+        if(op > 0) {
             requestAnimationFrame(anim);
         }
     });
+    $('#pop-up').removeClass('active');
+    $(window).off('popstate');
+    window.history.back();
+    console.log("close");
 }
 const Modal = ({active,setActive}) => {
+    function cl(){
+        setActive(false);
+        close();
+    }
     let el = document.getElementsByClassName("modal")[0];
     let op = 0;
     if(active === true) {
@@ -70,11 +78,17 @@ const Modal = ({active,setActive}) => {
                 requestAnimationFrame(anim);
             }
         });
+        if(window.history.state !== 'popup-open') {
+            console.log("open");
+            window.history.pushState(null, null, "#contact_form");
+            console.log("creat_yu");
+            $(window).on('popstate', cl);
+        }
     }
     return(
-        <div className={active? "modal active" : "modal"} onClick={() => {if(c===true){
-            setActive(false);
-            close();
+        <div className={active? "modal active" : "modal"} onClick={() => {if((c===true) && active){
+            console.log("need_to_close");
+            cl();
         }}}>
             <div className={active? "modal__content active" : "modal__content"} onClick={e => e.stopPropagation()} id="content">
                     <div id="right-help">
