@@ -419,6 +419,14 @@ section.drupal_expertise div.right_container {
 .tariffs .container .item ul.tariff_terms {
     list-style: none;
 }
+.tariffs .container .item ul.tariff_terms li {
+    padding-left: 15px;
+}
+.tariffs .container .item ul.tariff_terms li:before {
+    content: url(../img/Vector.svg);
+    position: absolute;
+    left: -15px;
+}
 .tariffs .container .item .top {
     border-bottom: 1px solid grey;
 }
