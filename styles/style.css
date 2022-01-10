@@ -483,6 +483,41 @@ section.drupal_expertise div.right_container {
 
 
 
+/*----------------OUR TEAM---------------*/
+.our_team h4 {
+    color: #040613;
+}
+.our_team p {
+    color: #040613;
+}
+.our_team h2 {
+    color: #040613;
+    text-align: center;
+    margin: 70px 0;
+}
+.our_team .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 8rem;
+    grid-row-gap: 5rem;
+    padding: 0 1rem;
+}
+.our_team .container .item img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+}
+.our_team .container .item h4 {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 30px 0 10px 0;
+}
+.our_team .container .item p {
+    padding-right: 20px;
+}
+
+
+
 
 
 
