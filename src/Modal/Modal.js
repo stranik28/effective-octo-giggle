@@ -61,6 +61,7 @@ function close(){
     $('#pop-up').removeClass('active');
     $(window).off('popstate');
     window.history.back();
+    window.history.back();
     console.log("close");
 }
 const Modal = ({active,setActive}) => {
