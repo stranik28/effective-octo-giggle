@@ -388,20 +388,31 @@ section.drupal_expertise div.right_container {
 /*-------------------TARIFFS-----------------*/
 .tariffs {
     color: #040613;
+    margin-top: 50px;
 }
 .tariffs h2 {
     text-align: center;
 }
 .tariffs .container {
     display: flex;
+    align-items: center;
+    padding-top: 50px;
 }
 .tariffs .container .item {
     display: flex;
     flex-direction: column;
 
-    padding: 0 60px;
+    padding: 60px 40px;
+
+    border: 1px solid rgba(0, 0, 0, 0.1);
 
     width: 32%;
+}
+.tariffs .container .item:first-child {
+    border-radius: 5px 0 0 5px;
+}
+.tariffs .container .item:last-child {
+    border-radius: 0 5px 5px 0;
 }
 .tariffs .container .item button.apply {
     padding: 24px 61px;
@@ -409,18 +420,33 @@ section.drupal_expertise div.right_container {
     border-radius: 5px;
     color: #F14D34;
     background-color: inherit;
+
+    transition: all 0.25s ease-in-out;
+
+    margin-top: 30px;
+}
+.tariffs .container .item button.apply:hover {
+    background-color: #F14D34;
+    color: #FFFFFF;
+
 }
 .tariffs .container .center_item button.apply {
     padding: 24px 81px;
+    margin-top: 80px;
 }
 .tariffs .container .center_item {
     width: 36%;
+    border-radius: 5px;
+
+    box-shadow: rgba(161, 161, 161, 0.5) 0 0 20px;
 }
 .tariffs .container .item ul.tariff_terms {
+    padding-top: 45px;
     list-style: none;
 }
 .tariffs .container .item ul.tariff_terms li {
-    padding-left: 15px;
+    padding: 10px 0;
+    margin-left: 25px;
     position: relative;
 }
 .tariffs .container .item ul.tariff_terms li p {
@@ -430,24 +456,57 @@ section.drupal_expertise div.right_container {
 .tariffs .container .item ul.tariff_terms li:before {
     content: url(../img/Vector.svg);
     position: absolute;
-    left: -15px;
+    left: -25px;
 }
 .tariffs .container .item .top {
     border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+}
+.tariffs .container .center_item .top {
+    padding-bottom: 30px;
 }
 .tariffs .container .item .top p.tariff_name {
     font-size: 22px;
+    font-weight: 700;
     line-height: 26px;
     color: #F14D34;
 }
 .tariffs .container .item .top p.cost {
     font-size: 72px;
+    line-height: 72px;
     font-weight: 700;
+}
+.tariffs .container .item .top .cost_box {
+    display: inline-block;
+    position: relative;
+}
+.tariffs .container .item .top .rub_icon {
+    position: absolute;
+    right: -10px;
+    top: 10px;
+}
+.individual_tariffs {
+    width: 50%;
+    text-align: center;
+    margin: 30px auto 0 auto;
+    padding: 20px;
+    color: #050C33;
+    opacity: 0.5;
+}
+div.receive_tariff_center {
+    text-align: center;
+}
+.receive_tariff {
+    text-decoration: underline;
+    color: #040613;
 }
 
 
 
 /*-----------------RECENT CASES------------*/
+.recentCases {
+    margin-top: 100px;
+}
 .recentCases h2 {
     color: black;
     text-align: center;
