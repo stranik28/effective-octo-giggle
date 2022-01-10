@@ -13,7 +13,7 @@ header {
 }
 
 .wrapper {
-	max-width:  1200px;
+	max-width:  1180px;
 	margin: 0 auto;
 }
 
@@ -382,6 +382,192 @@ section.drupal_expertise div.right_container {
     flex-direction: column;
     justify-content: flex-start;
 }
+
+
+
+/*-------------------TARIFFS-----------------*/
+.tariffs {
+    color: #040613;
+}
+.tariffs h2 {
+    text-align: center;
+}
+.tariffs .container {
+    display: flex;
+}
+.tariffs .container .item {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 60px;
+
+    width: 32%;
+}
+.tariffs .container .item button.apply {
+    padding: 24px 61px;
+    border: 1px solid #F14D34;
+    border-radius: 5px;
+    color: #F14D34;
+    background-color: inherit;
+}
+.tariffs .container .center_item button.apply {
+    padding: 24px 81px;
+}
+.tariffs .container .center_item {
+    width: 36%;
+}
+.tariffs .container .item ul.tariff_terms {
+    list-style: none;
+}
+.tariffs .container .item .top {
+    border-bottom: 1px solid grey;
+}
+.tariffs .container .item .top p.tariff_name {
+    font-size: 22px;
+    line-height: 26px;
+    color: #F14D34;
+}
+.tariffs .container .item .top p.cost {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+
+
+/*-----------------RECENT CASES------------*/
+.recentCases h2 {
+    color: black;
+    text-align: center;
+    padding: 50px 0 60px 0;
+}
+.recentCases .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    grid-template-areas:
+    "item1 item2 item2"
+    "item3 item4 item5"
+    "item6 item6 item7";
+
+    max-width: 100%;
+}
+.recentCases .container .item {
+    position: relative;
+}
+.recentCases .container .item img {
+    max-width: 100%;
+}
+.recentCases .container .item1 {
+    grid-area: item1;
+}
+.recentCases .container .item2 {
+    grid-area: item2;
+}
+.recentCases .container .item3 {
+    grid-area: item3;
+}
+.recentCases .container .item4 {
+    grid-area: item4;
+}
+.recentCases .container .item5 {
+    grid-area: item5;
+}
+.recentCases .container .item6 {
+    grid-area: item6;
+}
+.recentCases .container .item7 {
+    grid-area: item7;
+}
+.recentCases .container .item p {
+    color: #050C33;
+}
+.recentCases .container .item1 h3,
+.recentCases .container .item5 h3 {
+    color: #050C33;
+    margin: 10px 0 0 8%;
+}
+.recentCases .container .item1 p,
+.recentCases .container .item5 p {
+    line-height: 22px;
+    margin: 10px 0 0 8%;
+}
+.recentCases .container .item1 .subhead,
+.recentCases .container .item5 .subhead {
+    margin: 10px 0 20px 8%;
+}
+.recentCases .container .item2 h3,
+.recentCases .container .item6 h3 {
+    max-width: 50%;
+    position: absolute;
+    left: 4%;
+    top: 80%;
+}
+.recentCases .container .item3 h3,
+.recentCases .container .item4 h3,
+.recentCases .container .item7 h3 {
+    position: absolute;
+    left: 8%;
+    top: 80%;
+}
+.recentCases .container .item2 p,
+.recentCases .container .item3 p,
+.recentCases .container .item4 p,
+.recentCases .container .item6 p,
+.recentCases .container .item7 p {
+    position: absolute;
+    left: 8%;
+    top: 90%;
+
+    color: #FFFFFF;
+    opacity: 50%;
+}
+.recentCases button.show_more {
+    display: block;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: inherit;
+    padding: 24px 74px;
+    margin: 20px auto;
+}
+
+
+
+/*----------------OUR TEAM---------------*/
+.our_team h4 {
+    color: #040613;
+}
+.our_team p {
+    color: #040613;
+}
+.our_team h2 {
+    color: #040613;
+    text-align: center;
+    margin: 70px 0;
+}
+.our_team .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 8rem;
+    grid-row-gap: 5rem;
+    padding: 0 1rem;
+}
+.our_team .container .item img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+}
+.our_team .container .item h4 {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 30px 0 10px 0;
+}
+.our_team .container .item p {
+    padding-right: 20px;
+}
+
+
+
 
 
 
