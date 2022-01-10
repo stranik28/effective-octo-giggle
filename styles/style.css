@@ -388,6 +388,7 @@ section.drupal_expertise div.right_container {
 /*-------------------TARIFFS-----------------*/
 .tariffs {
     color: #040613;
+    margin-top: 50px;
 }
 .tariffs h2 {
     text-align: center;
