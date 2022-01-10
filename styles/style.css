@@ -499,11 +499,12 @@ section.drupal_expertise div.right_container {
 .recentCases .container .item2 h3,
 .recentCases .container .item6 h3 {
     max-width: 50%;
+    position: absolute;
+    left: 4%;
+    top: 80%;
 }
-.recentCases .container .item2 h3,
 .recentCases .container .item3 h3,
 .recentCases .container .item4 h3,
-.recentCases .container .item6 h3,
 .recentCases .container .item7 h3 {
     position: absolute;
     left: 8%;
