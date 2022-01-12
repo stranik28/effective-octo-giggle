@@ -14,6 +14,7 @@
         // Toggle open and close nav styles on click
         $('#nav-toggle').click(function() {
             $('nav ul').slideToggle();
+            $('nav>ul').css({'position' : 'absolute', 'bottom' : '0'});
         });
         // Hamburger to X toggle
         $('#nav-toggle').on('click', function() {
