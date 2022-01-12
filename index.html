@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>Drupal Coder - разработка сайтов на drupal</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/mobile.css">
+    <link rel="stylesheet" href="styles/menu.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/menu.js"></script>
    <!------fonts-------->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,40 +22,67 @@
             <source src="img/video.mp4" type="video/mp4">
         </video>
         <div class="wrapper">
-            <div class="header_container">
-                <div class="header_menu_container">
-                    <img src="img/drupal-coder.svg" alt="drupal-coder" class="logo">
-                    <menu class="header_menu">
-                        <li>
-                            <a href="">Поддержка сайтов</a>
-                            <ul class="dropdown_menu">
-                                <li><a href="#">1</a></li>
-                                <li><a href="#">2</a></li>
-                                <li><a href="#">3</a></li>
-                                <li><a href="#">4</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="">Тарифы</a></li>
-                        <li><a href="">Наши работы</a></li>
-                        <li><a href="">Отзывы</a></li>
-                        <li><a href="">Контакты</a></li>
-                    </menu>
-                </div>
-                <div class="tel">
-                    <a href="tel:88002222673">
-                        8 800 222-26-73
-                    </a>
-                    <ul class="lang_list">
-                        <li>RU</li>
-                        <!--
-                        <li>EN</li>
-                        <li>DE</li>
-                        -->
-                    </ul>
-                    <div class="arrow arrow-bottom lang_arr">
+            <section class="navigation">
+                <div class="nav-container">
+                    <div class="brand">
+                        <a class="logo" href="#!"></a>
                     </div>
+                    <nav>
+                        <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+                        <ul class="nav-list">
+                            <li>
+                                <a href="#!">Администрирование</a>
+                                <ul class="nav-dropdown">
+                                    <li>
+                                        <a href="#!">Миграция</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Бэкапы</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Аудит безопасности</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Оптимизация скорости</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Переезд на HTTPS</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#!">Продвижение</a>
+                            </li>
+                            <li>
+                                <a href="#!">Реклама</a>
+                            </li>
+                            <li>
+                                <a href="#!">О нас</a>
+                                <ul class="nav-dropdown">
+                                    <li>
+                                        <a href="#!">Команда</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">DRUPALGIVE</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Блог</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Курсы DRUPAL</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#!">Проекты</a>
+                            </li>
+                            <li>
+                                <a href="#!">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-            </div>
+            </section>
             <div class="header_main">
                 <div class="heading">
                     <h1>Поддержка<br>сайтов на Drupal</h1>
