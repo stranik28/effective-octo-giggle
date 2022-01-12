@@ -2,7 +2,12 @@
 
 .navigation {
   height: 70px;
-  background: inherit; }
+  background: inherit;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
 
 .brand {
   position: absolute;
