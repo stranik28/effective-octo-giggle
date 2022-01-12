@@ -3,10 +3,11 @@
 .navigation {
   height: 70px;
   background: inherit;
-  position: absolute;
-  left: 0;
+  position: fixed;
+  top: calc(100vh - 70px);
   right: 0;
-  top: 0;
+  left: 0;
+  background-color: black;
 }
 
 .brand {
@@ -95,7 +96,14 @@ nav {
     position: static; } }
 @media screen and (min-width: 1020px) {
   .nav-list {
-    display: block !important; } }
+    display: block !important;
+  }
+  .navigation {
+    position: absolute;
+    top: 0;
+    background-color: inherit;
+  }
+}
 #nav-toggle {
   position: absolute;
   left: 18px;
