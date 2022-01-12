@@ -53,6 +53,7 @@ nav {
           padding-left: 4px;
           content: ' ▾'; }
       nav ul li ul li {
+        width: 100%;
         min-width: 190px; }
         nav ul li ul li a {
           padding: 15px;
@@ -63,7 +64,7 @@ nav {
   display: none;
   z-index: 1;
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
-  background-color: inherit;
+  background-color: black;
 }
 
 /* Mobile navigation */
