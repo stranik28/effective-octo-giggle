@@ -105,6 +105,9 @@ nav {
     display: block !important;
     position: static !important;
   }
+  .nav-list>li:hover .nav-dropdown {
+    display: block !important;
+  }
   .navigation {
     position: absolute;
     top: 0;
