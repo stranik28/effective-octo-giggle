@@ -622,6 +622,10 @@
         margin: 0 10%;
     }
 
+    .our_team .container .item {
+        min-width: 0;
+    }
+
     .our_team .container .item img {
         display: block;
         max-width: 100%;
