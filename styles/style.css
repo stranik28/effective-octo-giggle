@@ -324,7 +324,7 @@
     }
 
 
-    /*-----------------------SECTION 3---------------------*/
+    /*-----------------------DRUPAL EXPERTISE---------------------*/
     section.drupal_expertise {
         background: linear-gradient(black 85%, 85%, white);
         height: 38vw;
@@ -372,6 +372,10 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+    }
+    div.laptop {
+        display: none;
+        visibility: hidden;
     }
 
 
