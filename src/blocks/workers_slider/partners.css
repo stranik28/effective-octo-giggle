@@ -1,0 +1,17 @@
+.partners > *{
+    margin: auto;
+    color: black;
+}
+.partners h2{
+    margin-top: 50px;
+}
+.FAQ h2{
+    color: black;
+}
+.partners p{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    justify-content: center;
+    text-align: center;
+}
