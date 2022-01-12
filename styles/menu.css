@@ -63,7 +63,7 @@ nav {
   display: none;
   z-index: 1;
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
-  background-color: black;
+  background-color: inherit;
 }
 
 /* Mobile navigation */
@@ -79,7 +79,11 @@ nav {
 @media only screen and (max-width: 1020px) {
   .nav-mobile {
     display: block; }
-
+  .nav-list {
+    background-color: black;
+    bottom: 0;
+    right: 0;
+    left: 0;  }
   nav {
     width: 100%;
     padding: 70px 0 15px; }
@@ -98,6 +102,7 @@ nav {
 @media screen and (min-width: 1020px) {
   .nav-list {
     display: block !important;
+    position: static !important;
   }
   .navigation {
     position: absolute;
@@ -136,7 +141,6 @@ nav {
     #nav-toggle.active span:after {
       transform: rotate(-45deg); }
 
-/*TODO sticky positioning of the menu-container at the bottom of the screen after passing a breakpoint */
 .brand .logo {
   width: 140px;
   height: 70px;
