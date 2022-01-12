@@ -1,6 +1,7 @@
 @import "menu.css";
+@import "mobile.css";
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 800px) {
     h2 {
         line-height: 51px;
         font-size: 42px;
@@ -698,9 +699,11 @@
     }
 
     .down .footer {
-        display: inline-flex;
-        padding: 25px 5% 71px;
         width: 100%;
+        display: flex;
+        padding: 25px;
+        max-width: 1180px;
+        margin: 0 auto;
     }
 
     .down {
