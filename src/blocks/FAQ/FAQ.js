@@ -14,6 +14,7 @@ function toggleAccordion() {
         $(this).parent().css({'border' : '3px solid #F14D34'});
     }
 }
+
 items.forEach(item => item.addEventListener('click', toggleAccordion));
 const FAQ = () =>{
 

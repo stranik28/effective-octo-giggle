@@ -6,6 +6,7 @@ import CM5 from "../img/competency-5.svg"
 import CM6 from "../img/competency-6.svg"
 import CM7 from "../img/competency-7.svg"
 import CM8 from "../img/competency-8.svg"
+import "./skills.css"
 
 const Skills = () =>{
     return(
